@@ -1,0 +1,10 @@
+ Volume in drive C is OSDisk
+ Volume Serial Number is 6E6F-AF4E
+
+ Directory of C:\Users\Rrosa202\Desktop\DTCP\dev\prod
+
+01/29/2019  03:00 PM    <DIR>          .
+01/29/2019  03:00 PM    <DIR>          ..
+01/29/2019  03:00 PM                 0 test.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  112,692,932,608 bytes free
