@@ -1,0 +1,23 @@
+:root{
+  --row0Color:#0c0c63;
+  --colum0Color:#00a0fdfd;
+  --colum1Color:#f3f3f3;
+  --colum2Color:#232528;
+  --row1Color:#ffa400;
+}
+body{
+  font-family: "Oswald", sans-serif !important;
+  background: var(--colum1Color) !important;
+  color: var(--colum2Color) !important;  
+}
+.text-title{
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-subtitle{
+  color: var(--colum2Color);
+}
+.text-subtitlelight{
+  color: var(--colum0Color);  
+}
