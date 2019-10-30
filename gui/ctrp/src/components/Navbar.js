@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom';
-import logo from '../church-icon.jpg';
+import logo from '../CTR-icon.png';
 import styled from 'styled-components';
 import {ButtonContainer} from './Button';
 
