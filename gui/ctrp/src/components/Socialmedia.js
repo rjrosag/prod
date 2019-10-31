@@ -20,7 +20,6 @@ export default class Socialmedia extends Component {
                                     }
                                 }
                             </donationConsumer>
-
                         </div>
                     </div>
                 </div>                
