@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import Socialmedia from './components/Socialmedia'; 
 import Details from './components/Details'; 
 import Cart from './components/Cart';
-import Landingpage from '/componets/Landingpage';
+import Landingpage from './components/Landingpage';
 import Default from './components/Default'; 
 
 function App() {

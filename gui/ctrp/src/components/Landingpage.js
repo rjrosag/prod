@@ -8,13 +8,15 @@ export default class Landingpage extends Component {
                 <Grid className="landingpage_grid">
                     <Cell col={12}>
                        <img 
-                           src="../../Public/commandment_10.jpg"
+                           src="../commandment_10.jpg"
                            alt="10 Cmds"
                            className="cmd_10_img"
                        /> 
                        <div className="banner-text">
                            <h1>Link1</h1>
-                       </div>  
+                       </div> 
+                       <hr/>
+                       <p>Opt1|Opt2|Opt3</p> 
                     </Cell>                    
                 </Grid>                
             </div>
