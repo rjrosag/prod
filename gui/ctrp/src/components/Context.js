@@ -27,4 +27,4 @@ class donationProvider extends Component {
 }
 const donationConsumer = donationContext.Consumer;
 
-export {donationProvider, donationConsumer };
+export {donationProvider, donationConsumer};

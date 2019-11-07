@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Socialmedia from './components/Socialmedia'; 
 import Details from './components/Details'; 
 import Cart from './components/Cart';
+import Landingpage from '/componets/Landingpage';
 import Default from './components/Default'; 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
     <React.Fragment>
       <Navbar />
       <Switch>
-        <Route exact path="/" component={Socialmedia} />
+        <Route exact path="/" component={Landingpage} />
         <Route path="/details" component={Details} />
         <Route path="/cart" component={Cart} />
         <Route component={Default} />        

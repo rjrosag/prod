@@ -14,12 +14,7 @@ export default class Socialmedia extends Component {
                     <div className="container">
                         <Title name="thanks for" title="donate" />
                         <div className="row">
-                            <donationConsumer>
-                                {(value)=> {
-                                    console.log(value);
-                                    }
-                                }
-                            </donationConsumer>
+                                
                         </div>
                     </div>
                 </div>                

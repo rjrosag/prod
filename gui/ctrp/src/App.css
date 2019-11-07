@@ -1,5 +1,5 @@
 :root{
-  --row0Color:#0c0c63;
+  --row0Color:#070750;
   --colum0Color:#00a0fdfd;
   --colum1Color:#f3f3f3;
   --colum2Color:#232528;
@@ -20,4 +20,25 @@ body{
 }
 .text-subtitlelight{
   color: var(--colum0Color);  
+}
+.landingpage_grid {
+  background: #EDE574;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E1F5C4, #EDE574);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.cmd_10_img {
+  height: 250px;
+  padding-top: 5em;
+}
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
 }
