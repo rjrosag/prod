@@ -4,6 +4,8 @@
   --colum1Color:#f3f3f3;
   --colum2Color:#232528;
   --row1Color:#ffa400;
+  --cardTitleColor: #232528;
+  --cardBgColor: #f3f3f3;
 }
 body{
   font-family: "Oswald", sans-serif !important;
@@ -26,10 +28,6 @@ body{
   background: -webkit-linear-gradient(to right, #E1F5C4, #EDE574);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.cmd_10_img {
-  height: 250px;
-  padding-top: 5em;
-}
 .banner-text {
   background-color: black;
   opacity: .8;
@@ -51,4 +49,9 @@ body{
   color: white;
   font-size: 20px;
   padding: 1em;
+}
+.cardBgPicture{
+  background: url(./cardBackgroundPicture.jpg);
+  background-size: cover;
+  border-radius: 0.5rem;
 }

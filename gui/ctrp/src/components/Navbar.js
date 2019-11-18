@@ -9,21 +9,37 @@ export default class Navbar extends Component {
         return (
             <NavWrapper className="navbar navbar-expand-sm row0Color px-sm-5">
                 <Link to="/">
-                    <img src={logo} alt="store" className="navbar-brand" />
+                    <img src={logo} alt="Landingpage" className="navbar-brand" />
                 </Link>
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5">
-                        <Link to="/" className="nav-link">
-                            Donation
+                        <Link to="/learn" className="nav-link">
+                            Learn
                         </Link>
                     </li>
+                    <li className="nav-item ml-5">
+                        <Link to="/pray" className="nav-link">
+                            Pray
+                        </Link>
+                    </li>
+                    <li className="nav-item ml-5">
+                        <Link to="/give" className="nav-link">
+                            Give
+                        </Link>
+                    </li>
+                    <li className="nav-item ml-5">
+                        <Link to="/Evangelize" className="nav-link">
+                            Evangelize
+                        </Link>
+                    </li>
+
                 </ul>
                 <Link to='/cart' className="ml-auto">
                     <ButtonContainer>
                         <span className="mr-2">
                             <i className="fas fa-cart-plus" />
                         </span>
-                        my cart
+                        Donate
                     </ButtonContainer>
                 </Link>
             </NavWrapper>
