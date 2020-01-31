@@ -6,6 +6,8 @@
   --row1Color:#ffa400;
   --cardTitleColor: #232528;
   --cardBgColor: #f3f3f3;
+  --landingPageLeftMainFormatBg: #00a0fdfd;
+  --landingPageLeftMainFormatFg: #f3f3f3;
 }
 body{
   font-family: "Oswald", sans-serif !important;
@@ -51,7 +53,25 @@ body{
   padding: 1em;
 }
 .cardBgPicture{
-  background: url(./cardBackgroundPicture.jpg);
+  background: url(./cardBackgroundPicture.png);
   background-size: cover;
   border-radius: 0.5rem;
 }
+.carouselFormat{
+  height: 180px;
+  display: block;
+  width: 100%;
+  background-size: cover;
+  background: url(./ctrpFrontElevation.png);
+}
+.frmt2Carousel{  
+  background: url(./emausMay2020v3.png);
+}
+.frmt3Carousel{  
+  background: url(./knightsDinner.png);
+}
+.frameCarousel{
+  width: 100%;
+  height: 100%;
+}
+

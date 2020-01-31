@@ -14,22 +14,22 @@ export default class Navbar extends Component {
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5">
                         <Link to="/learn" className="nav-link">
-                            Learn
+                            Aprende
                         </Link>
                     </li>
                     <li className="nav-item ml-5">
                         <Link to="/pray" className="nav-link">
-                            Pray
+                            Ora
                         </Link>
                     </li>
                     <li className="nav-item ml-5">
                         <Link to="/give" className="nav-link">
-                            Give
+                            Sirve
                         </Link>
                     </li>
                     <li className="nav-item ml-5">
                         <Link to="/Evangelize" className="nav-link">
-                            Evangelize
+                            Evangeliza
                         </Link>
                     </li>
 
@@ -39,7 +39,7 @@ export default class Navbar extends Component {
                         <span className="mr-2">
                             <i className="fas fa-cart-plus" />
                         </span>
-                        Donate
+                        Donar
                     </ButtonContainer>
                 </Link>
             </NavWrapper>
