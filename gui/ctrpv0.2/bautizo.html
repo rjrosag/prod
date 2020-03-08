@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+        <title>Cristo Redentor</title>
+        <meta name="robots" 
+        content="noindex,noindex" />
+        <meta name="description" 
+          content="Inglesia catolica hispana en Mount Holly, NJ 08060" />
+        <meta name="keywords" 
+        content="Inglesia,misa en espanol, iglesia catolica, espanol, parroquia, hispana" /> 
+
+        <link rel="stylesheet" type="text/css" href="system.css"/>
+        <style type="text/css">
+            fieldset {
+                width: 75%;
+                border: 2px solid #ff000;
+            }
+            legend {
+                font-weight: bold;
+                font-size: 125;
+            }
+            label.question {
+                width: 225px;
+                float: left;
+                text-align: left;
+                font-weight: bold;
+            }
+            span.question {
+                font-weight: bold;
+            }
+            input, textarea, select {
+                border: 1px solid #000;
+                padding: 3px;
+            }
+            #buttons {
+                margin-top: 12px;
+            }
+        </style>
+        <div>
+            <a href="index.html"><img src="systemLogo.png" alt="System logo"/></a>	
+            <h1><p id="slogan" /></h1>	
+            <nav>
+                <ul style="list-style-type:none;" >
+                    <li style="float: left; padding-right: 15px;"><a href="carousel.html">Acerca de nostros</a></li>
+                    <li style="float: left; padding-right: 15px;"><a href="calendar.html">Misas</a></li>
+                    <li style="float: left; padding-right: 15px;"><a href="sacramento.html">Sacramentos</a></li>
+                    <li style="float: left; padding-right: 15px;"><a href="ministerios.html">Ministerios</a></li>
+                    <li style="float: left; padding-right: 15px;"><a href="boletin.pdf" target="_blank">Boletin</a></li>
+                    <li style="float: left; padding-right: 15px;"><a href="actividades.html">Actividades</a></li>
+                    <li style="float: left; padding-right: 15px;"><a href="login.html">Registrate</a></li><br/>
+            </ul>
+            </nav>
+        </div>
+        <ul style="list-style-type:none;" >
+            <h2><li style="float: left;"><p id="compania" style="text-align: center;" /></li></h2><br/>
+        </ul>
+    </head>
+    <body>
+        <h3>Bautismo</h3>
+        <form name="gbForm" method="POST" action="URL_to_script">
+            <fieldset>
+                <legend>Information Personal</legend>
+                <p><label class ="question" for="the_name">Nombre y apellido</label>
+                    <input type="text" id="the_name" name="the_name"
+                    placeholder="Escriba nombre y apellido del nino"
+                    size="50" required autofocus/>
+                </p>
+                <p><label class ="question" for="the_email">E-mail</label>
+                    <input type="email" id="the_email" name="the_email"
+                    placeholder="email real por favor"
+                    size="50" autofocus/>
+                </p>
+
+            </fieldset>
+            <fieldset>
+                <p><label class ="question" for="the_bday">Fecha nacimiento</label>
+                    <input type="date" id="the_bday" name="the_bday"
+                    placeholder="Fecha nacimiento"
+                    size="15" required autofocus/>
+                </p>
+                <p>
+                    <label class ="question" for="the_birth_place">Lugar de nacimeinto</label>
+                    <input type="text" id="the_birth_place" name="the_birth_place"
+                    placeholder="Lugar de nacimiento"
+                    size="15" required autofocus/>
+                </p>
+                <p>
+                    <label class ="question" for="the_direccion">Direccion</label>
+                    <input type="text" id="the_direccion" name="the_direccion"
+                    placeholder="Direccion de su residencia"
+                    size="50" required autofocus/>
+                </p>
+                <p>
+                    <label class ="question" for="the_celular">Celular</label>
+                    <input type="text" id="the_celular" name="the_celular"
+                    placeholder="celular"
+                    size="15" required autofocus/>
+                </p>
+                <p>
+                    <label class ="question" for="the_celular">Tel casa</label>
+                    <input type="text" id="the_tel_casa" name="the_tel_casa"
+                    placeholder="telefono fijo"
+                    size="15" required autofocus/>
+                </p>
+                <p>
+                    <label class ="question" for="the_padre">Nompre de padre</label>
+                    <input type="text" id="the_padre" name="the_padre"
+                    placeholder="nombre del padre"
+                    size="20" required autofocus/>
+                </p>
+                <p>
+                    <label class ="question" for="the_padre_religion">Religion</label>
+                    <input type="text" id="the_padre_religion" name="the_padre_religion"
+                    placeholder="nombre del padre"
+                    size="15" required autofocus/>
+                </p>
+                <p>
+                    <label class ="question" for="the_mother_nombre">Nombre soltera madre</label>
+                    <input type="text" id="the_mother_nombre" name="the_mother_nombre"
+                    placeholder="Apellido soltera madre"
+                    size="20" required autofocus/>
+                </p>
+                <p>
+                    <label class ="question" for="the_madre_religion">Religion</label>
+                    <input type="text" id="the_madre_religion" name="the_madre_religion"
+                    placeholder="Religion de la madre"
+                    size="15" required autofocus/>
+                </p>
+                <p>
+                    <label class ="question" for="the_boda_lugar">Iglesia & Lugar matrimonio</label>
+                    <input type="text" id="the_boda_lugar" name="the_boda_lugar"
+                    placeholder="Iglesia & lugar matrimonio"
+                    size="50" required autofocus/>
+                </p>
+                <p>
+                    <label class ="question" for="esBautizado">Ha este nino(a) bautizado en privado?</label>
+                    <select id="esBautizado" name="esBautizado">
+                        <option value="Si">Si</option>
+                        <option value="No">No</option>
+                    </select>
+                </p>
+                <p>
+                    <label class ="question" for="esAdoptado">Ha este nino(a) adoptado?</label>
+                    <select id="esAdoptado" name="esAdoptado">
+                        <option value="Si">Si</option>
+                        <option value="No">No</option>
+                    </select>
+                </p>
+                <p>
+                    <label class ="question" for="the_padrino">Nombre del padrino</label>
+                    <input type="text" id="the_padrino" name="the_padrino"
+                    placeholder="Nombre y apellido del padrino"
+                    size="50" required autofocus/>
+                </p>
+                <p>
+
+                    <label class ="question" for="the_padrino_religion">Religion</label>
+                    <input type="text" id="the_padrino_religion" name="the_padrino_religion"
+                    placeholder="Religion del padrino"
+                    size="20" required autofocus/>
+
+                </p>
+                <p>
+                    <label class ="question" for="the_madrina">Nombre de la madrina</label>
+                    <input type="text" id="the_madrina" name="the_madrina"
+                    placeholder="Nombre y apellido de la madrina"
+                    size="50" required autofocus/>
+                </p>
+                <p>
+                    <label class ="question" for="the_madrina_religion">Religion</label>
+                    <input type="text" id="the_madrina_religion" name="the_madrina_religion"
+                    placeholder="Religion del madrina"
+                    size="20" required autofocus/>
+                </p>
+                <p>
+                    <label class ="question" for="esPoder">Esta alguno de los padrinos representado por poder?</label>
+                    <select id="esAdoptado" name="esAdoptado">
+                        <option value="Si">Si</option>
+                        <option value="No">No</option>
+                    </select>
+                </p>
+                <p>
+                    <label class ="question" for="Poder_nombre">Cual?</label>
+                    <input type="text" id="Poder_nombre" name="Poder_nombre"
+                    placeholder="Nombre persona usando poder"
+                    size="50" autofocus/>
+                </p>
+                <p><label class ="question" for="Preparadoen">Fecha de preparacion</label>
+                    <input type="date" id="Preparadoen" name="Preparadoen"
+                    placeholder="Fecha de preparacion"
+                    size="15" autofocus/>
+                </p>
+                <p><label class ="question" for="the_abutizo">Fecha de butizo</label>
+                    <input type="date" id="the_abutizo" name="the_abutizo"
+                    placeholder="Fecha bautizo"
+                    size="15" autofocus/>
+                </p>
+                
+            </fieldset>
+            <div id="buttons">
+                <input type="submit" value="Enviar"> 
+                <input type="reset" value="Empezar de nuevo"> 
+
+            </div>
+        </form>
+        
+    </body>
+    <script>
+        var slogan = "La parroquia del servicio, amor y unidad";
+        var parroquia = "Iglesia Catolica Cristo Redentor";
+        document.getElementById("slogan").innerHTML = slogan;
+        document.getElementById("compania").innerHTML = parroquia;
+    </script>
+</html>

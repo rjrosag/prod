@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+        <title>Cristo Redentor</title>
+        <meta name="robots" 
+        content="noindex,noindex" />
+        <meta name="description" 
+          content="Inglesia catolica hispana en Mount Holly, NJ 08060" />
+        <meta name="keywords" 
+        content="Inglesia,misa en espanol, iglesia catolica, espanol, parroquia, hispana" /> 
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="system.css"/>
+        <div>
+            <a href="index.html"><img src="systemLogo.png" alt="System logo"/></a>	
+            <h1><p id="slogan" /></h1>	
+            <nav>
+                <ul style="list-style-type:none;" >
+                    <li style="float: left; padding-right: 15px;"><a href="carousel.html">Acerca de nostros</a></li>
+                    <li style="float: left; padding-right: 15px;"><a href="calendar.html">Misas</a></li>
+                    <li style="float: left; padding-right: 15px;"><a href="sacramento.html">Sacramentos</a></li>
+                    <li style="float: left; padding-right: 15px;"><a href="ministerios.html">Ministerios</a></li>
+                    <li style="float: left; padding-right: 15px;"><a href="boletin.pdf" target="_blank">Boletin</a></li>
+                    <li style="float: left; padding-right: 15px;"><a href="actividades.html">Actividades</a></li>
+                    <li style="float: left; padding-right: 15px;"><a href="login.html">Registrate</a></li><br/>
+                </ul>
+            </nav>
+        </div>
+        <ul style="list-style-type:none;" >
+            <h2><li style="float: left;"><p id="compania" style="text-align: center;" /></li></h2><br/>
+        </ul>
+        <style> 
+            body {font-family: Arial, Helvetica, sans-serif;} 
+            form {border: 3px solid #f1f1f1;} 
+            input[type=text], input[type=password] { 
+            width: 50%; 
+            padding: 12px 20px; 
+            margin: 8px 0; 
+            display: inline-block; 
+            border: 1px solid #ccc; 
+            box-sizing: border-box; 
+            } 
+            button { 
+            background-color: #4CAF50; 
+            color: white; 
+            padding: 14px 20px; 
+            margin: 8px 0; 
+            border: none; 
+            cursor: pointer; 
+            width: 100%; 
+            } 
+            button:hover { 
+            opacity: 0.8; 
+            } 
+            .cancelbtn { 
+            width: auto; 
+            padding: 10px 18px; 
+            background-color: #f44336; 
+            } 
+            .imgcontainer { 
+            text-align: center; 
+            margin: 24px 0 12px 0; 
+            } 
+            img.avatar { 
+            width: 40%; 
+            border-radius: 50%; 
+            } 
+            .container { 
+            padding: 16px; 
+            } 
+            span.psw { 
+            float: right; 
+            padding-top: 16px; 
+            } 
+            /* Change styles for span and cancel button on extra small screens */ 
+            @media screen and (max-width: 300px) { 
+            span.psw { 
+            display: block; 
+            float: none; 
+            } 
+            .cancelbtn { 
+            width: 100%; 
+            } 
+            } 
+            </style>
+            
+    </head>
+    <body>
+        <h3>Registracion</h3>
+        <form action="/action_page.php" method=post>
+            <div class="imgcontainer">
+                <img src="avatar.jpg" alt="Avatar" class="avatar">
+            </div>
+            <div class="container">
+                <label for="uname"><b>Usuario</b></label>
+                <input type="text" placeholder="Introdusca usuario" 
+                  name="uname" required><br/>
+
+                <label for="psw"><b>Contrasena</b></label>
+                <input type="password" placeholder="Introdusca clave" 
+                name="psw" required>
+
+                <button type="Submit">Entrar</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember">Recordar mi credencial
+                </label>
+            </div>
+            <div class="container" style="background-color: #f1f1f1">
+                <button type="button" class="cancelbtn" onclick="homePage()">Cancelar</button>
+                <button type="button" class="cancelbtn" onclick="Registro()">Registrate</button>
+                <span class="psw">Olvido <a href="#">clave?</a></span>
+            </div>
+
+        </form>
+
+    </body>
+    <script>
+        var slogan = "La parroquia del servicio, amor y unidad";
+        var parroquia = "Iglesia Catolica Cristo Redentor";
+        document.getElementById("slogan").innerHTML = slogan;
+        document.getElementById("compania").innerHTML = parroquia;
+
+        function homePage() {
+            window.location.href='index.html';
+        }
+        function Registro() {
+            window.location.href='registro.html';
+        }
+
+    </script>
+</html>

@@ -2,7 +2,7 @@ import React from 'react';
 import './Country.css';
 import sun from '../../img/sun-icon.svg';
 import snow from '../../img/snow-icon.svg';
-import ca from '../../img/ctrp_emaus_flyer_m.jpg';
+import ca from '../../img/ctrpLPage01.jpg';
 import ru from '../../img/ctrp-vicar.jpg';
 
 const Country = (props)=> {
@@ -29,8 +29,8 @@ const Country = (props)=> {
                     </div>
                     :
                     <div>
-                        <p>Moscow</p>
-                        <p>RUSSIA</p>
+                        <p>Mount Holly</p>
+                        <p>NEW JERSEY</p>
                     </div>
                     }
             </div>
