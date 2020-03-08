@@ -2,16 +2,17 @@ body {
     font-size: 20pt;
     font-family: Verdana, Geneva, Arial, Helvetica, san-serif;
     color: black;
-    line-height: 14pt;
+    line-height: 25pt;
     padding-left: 5pt;
     padding-right: 5pt;
     padding-top: 5pt;
+    
     background: white url('indexBg.jpg') top right;
 }
 h1 {
     font: 14pt Verdana, Geneva, Arial, Helvetica, san-serif;
     font-weight: bold; 
-    font-height: 20pt;
+    line-height: 20pt;
 }
 h2 {
     text-align: center;
