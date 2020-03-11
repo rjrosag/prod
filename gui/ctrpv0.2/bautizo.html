@@ -45,7 +45,7 @@
                     <li style="float: left; padding-right: 15px;"><a href="calendar.html">Misas</a></li>
                     <li style="float: left; padding-right: 15px;"><a href="sacramento.html">Sacramentos</a></li>
                     <li style="float: left; padding-right: 15px;"><a href="ministerios.html">Ministerios</a></li>
-                    <li style="float: left; padding-right: 15px;"><a href="boletin.pdf" target="_blank">Boletin</a></li>
+                    <li style="float: left; padding-right: 15px;"><a href="boletin.pdf" target="_blank">Bolet&#237n</a></li>
                     <li style="float: left; padding-right: 15px;"><a href="actividades.html">Actividades</a></li>
                     <li style="float: left; padding-right: 15px;"><a href="login.html">Registrate</a></li><br/>
                 </ul>
@@ -59,10 +59,10 @@
         <h3>Bautismo</h3>
         <form name="gbForm" method="POST" action="URL_to_script">
             <fieldset>
-                <legend>Information Personal</legend>
+                <legend>Informati&#243n Personal</legend>
                 <p><label class ="question" for="the_name">Nombre y apellido</label>
                     <input type="text" id="the_name" name="the_name"
-                    placeholder="Escriba nombre y apellido del nino"
+                    placeholder="Escriba nombre y apellido del ni&#241o"
                     size="50" required autofocus/>
                 </p>
                 <p><label class ="question" for="the_email">E-mail</label>
@@ -85,9 +85,9 @@
                     size="15" required autofocus/>
                 </p>
                 <p>
-                    <label class ="question" for="the_direccion">Direccion</label>
+                    <label class ="question" for="the_direccion">Direcci&#243n</label>
                     <input type="text" id="the_direccion" name="the_direccion"
-                    placeholder="Direccion de su residencia"
+                    placeholder="Direcci&#243n de su residencia"
                     size="50" required autofocus/>
                 </p>
                 <p>
@@ -99,8 +99,8 @@
                 <p>
                     <label class ="question" for="the_celular">Tel casa</label>
                     <input type="text" id="the_tel_casa" name="the_tel_casa"
-                    placeholder="telefono fijo"
-                    size="15" required autofocus/>
+                    placeholder="tel&#233fono fijo"
+                    size="15" autofocus/>
                 </p>
                 <p>
                     <label class ="question" for="the_padre">Nompre de padre</label>
@@ -109,9 +109,9 @@
                     size="20" required autofocus/>
                 </p>
                 <p>
-                    <label class ="question" for="the_padre_religion">Religion</label>
+                    <label class ="question" for="the_padre_religion">Religi&#243n</label>
                     <input type="text" id="the_padre_religion" name="the_padre_religion"
-                    placeholder="nombre del padre"
+                    placeholder="Religi&#243n del padre"
                     size="15" required autofocus/>
                 </p>
                 <p>
@@ -121,9 +121,9 @@
                     size="20" required autofocus/>
                 </p>
                 <p>
-                    <label class ="question" for="the_madre_religion">Religion</label>
+                    <label class ="question" for="the_madre_religion">Religi&#243n</label>
                     <input type="text" id="the_madre_religion" name="the_madre_religion"
-                    placeholder="Religion de la madre"
+                    placeholder="Religi&#243n de la madre"
                     size="15" required autofocus/>
                 </p>
                 <p>
@@ -133,14 +133,14 @@
                     size="50" required autofocus/>
                 </p>
                 <p>
-                    <label class ="question" for="esBautizado">Ha este nino(a) bautizado en privado?</label>
+                    <label class ="question" for="esBautizado">Ha este ni&#241o(a) bautizado en privado?</label>
                     <select id="esBautizado" name="esBautizado">
                         <option value="Si">Si</option>
                         <option value="No">No</option>
                     </select>
                 </p>
                 <p>
-                    <label class ="question" for="esAdoptado">Ha este nino(a) adoptado?</label>
+                    <label class ="question" for="esAdoptado">Ha este ni&#241o(a) adoptado?</label>
                     <select id="esAdoptado" name="esAdoptado">
                         <option value="Si">Si</option>
                         <option value="No">No</option>
@@ -154,9 +154,9 @@
                 </p>
                 <p>
 
-                    <label class ="question" for="the_padrino_religion">Religion</label>
+                    <label class ="question" for="the_padrino_religion">Religi&#243n</label>
                     <input type="text" id="the_padrino_religion" name="the_padrino_religion"
-                    placeholder="Religion del padrino"
+                    placeholder="Religi&#243n del padrino"
                     size="20" required autofocus/>
 
                 </p>
@@ -167,9 +167,9 @@
                     size="50" required autofocus/>
                 </p>
                 <p>
-                    <label class ="question" for="the_madrina_religion">Religion</label>
+                    <label class ="question" for="the_madrina_religion">Religi&#243n</label>
                     <input type="text" id="the_madrina_religion" name="the_madrina_religion"
-                    placeholder="Religion del madrina"
+                    placeholder="Religi&#243n del madrina"
                     size="20" required autofocus/>
                 </p>
                 <p>
@@ -185,9 +185,9 @@
                     placeholder="Nombre persona usando poder"
                     size="50" autofocus/>
                 </p>
-                <p><label class ="question" for="Preparadoen">Fecha de preparacion</label>
+                <p><label class ="question" for="Preparadoen">Fecha de preparaci&#243n</label>
                     <input type="date" id="Preparadoen" name="Preparadoen"
-                    placeholder="Fecha de preparacion"
+                    placeholder="Fecha de preparaci&#243n"
                     size="15" autofocus/>
                 </p>
                 <p><label class ="question" for="the_abutizo">Fecha de butizo</label>
@@ -207,7 +207,7 @@
     </body>
     <script>
         var slogan = "La parroquia del servicio, amor y unidad";
-        var parroquia = "Iglesia Catolica Cristo Redentor";
+        var parroquia = "Iglesia Cat&#243lica Cristo Redentor";
         document.getElementById("slogan").innerHTML = slogan;
         document.getElementById("compania").innerHTML = parroquia;
     </script>
