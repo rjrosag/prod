@@ -27,14 +27,5 @@ img {
     padding-right: 15px;
     font-size: 16pt !important;
 }
-.no-gutters {
-    margin-left: 0;
-    margin-right: 0;
-    > .col,
-    > [class="col-"] {
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
 
 
