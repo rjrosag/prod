@@ -5,3 +5,8 @@
 .pt-3 {
     padding-top: $spacer !important;
 }
+.menuitem {
+    float: left; 
+    padding-right: 15px;
+    font-size: 16pt !important;
+}
