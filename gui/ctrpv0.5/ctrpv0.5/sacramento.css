@@ -1,0 +1,7 @@
+.pt-2 {
+    padding-top: $(spacer *.50) !important;
+}
+
+.pt-3 {
+    padding-top: $spacer !important;
+}
